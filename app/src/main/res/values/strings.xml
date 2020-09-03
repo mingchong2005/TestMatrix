@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestMatrix</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Convert">Convert</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+</resources>

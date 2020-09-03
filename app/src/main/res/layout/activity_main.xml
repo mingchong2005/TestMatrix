@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestMatrixActivity" >
+
+    <EditText
+        android:id="@+id/EditTextInput"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="InputText"
+        android:isScrollContainer="true"
+        android:scrollbarStyle="insideOverlay"/>
+
+    <Button
+        android:id="@+id/ButtonConvert"
+        android:text="@string/Convert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/ConvertText"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:editable="false"
+        android:hint="ReceiveText"
+        android:isScrollContainer="true"
+        android:scrollbarStyle="insideOverlay"/>
+
+    <Button
+        android:id="@+id/ButtonStart"
+        android:text="@string/start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/ButtonStop"
+        android:text="@string/stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
